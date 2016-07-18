@@ -1,0 +1,584 @@
+/**************************************************************************************************************************/
+/* Aqui esta la orden para mandar llamar la tipografia que se utilizara en algunas ocasiones*/
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.eot');
+    src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
+         url('../fonts/alexbrush-regular-webfont.ttf') format('truetype'),
+         url('../fonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'aguafina_scriptregular';
+    src: url('../fonts/aguafinascript-regular-webfont.eot');
+    src: url('../fonts/aguafinascript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aguafinascript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aguafinascript-regular-webfont.woff') format('woff'),
+         url('../fonts/aguafinascript-regular-webfont.ttf') format('truetype'),
+         url('../fonts/aguafinascript-regular-webfont.svg#aguafina_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/**************************************************************************************************************************/
+/* Aqui comienza los estilos para todas las etiquetas del documento html en orden alfabetico*/
+body{
+
+	background-image:url(../images/assaabloy.jpg); 
+  background:black;
+
+ 
+}
+a{
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+a:hover{
+  color: blue;
+  text-decoration: none;
+  -ms-transition:all 0.5s ease-in;
+  -moz-transition:all 0.5s ease-in;
+  -o-transition:all 0.5s ease-in;
+  -webkit-transition:all 0.5s ease-in;
+  transition:all 0.5s ease-in;
+}
+blockquote{
+  background: white;
+  color:black;
+}
+fieldset{
+  border: 1px #979797 solid; 
+  border-radius: 2em;
+  border-width: 0.5em;
+  border-bottom-width:0.5em;
+}
+fieldset h1{
+
+  font-size:4.6em;
+  font-weight:900;
+  text-align: center;
+  color:#C0BEBE;
+  max-width: 100%;
+}
+fieldset h2{
+  font-family:"alex_brushregular",  Helvetica, Verdana;
+  font-size:3em;
+  font-weight:500;
+  text-align: center;
+  color:black;
+}
+footer{
+  background:#979797;
+  line-height:55px;
+  color:#000;
+  margin-top: 1em;
+  margin-bottom: 10px;
+}
+h4{
+  font-size: 3em;
+  font-weight: 700;
+}
+header{
+  background-color:#fff;
+  height:100px;
+  color:#fff;
+  margin-top:10px;
+}
+img, video{
+  max-width: 100%;
+  }
+img{
+
+  border-radius:0 0.25em, 0, 0.25em;
+}
+nav ul{
+  list-style: none;
+}
+p{
+  color:white;
+  font-size:1em;
+  text-align: left;
+}
+
+div.informacioncontacto strong{
+  color:red;
+}
+
+
+
+div.informacioncontacto div.col-md-4 strong{
+  color:black;
+  font-size: 1em;
+}
+
+div.informacioncontacto div.col-md-4 h5 strong{
+  color:black;
+  font-size:2em;
+}
+
+table{
+  border:2px solid blue;
+}
+
+table th{
+  border:2px solid blue;
+}
+
+/*table tr{
+  border:2px solid blue;
+}*/
+
+table td{
+  border-bottom:2px solid blue;
+}
+
+textarea{
+  resize:none;
+}
+/*
+nav li{
+}*/
+
+/**************************************************************************************************************************/
+/* Aqui comienzan los estilos para todos los ID en orden alfabetico*/
+#anchofooter{
+  padding-left: 0;
+}
+#estiloparrafo{
+  color: black;
+}
+#menusec{
+  padding:0.1em;
+  text-align: left;
+  margin-left: 40px;
+ }
+
+ 
+
+/**************************************************************************************************************************/
+/* Aqui comienzan los estilos para todas las clases en orden alfabetico comenzando por las que van precedidas por etiquetas*/
+div.fondoP{
+  background-color:#EDEAEA;
+  max-width: 1100px;
+}
+img.fade{
+
+ -ms-transition:all 0.5s ease-in;
+  -moz-transition:all 0.5s ease-in;
+  -o-transition:all 0.5s ease-in;
+  -webkit-transition:all 0.5s ease-in;
+  transition:all 0.5s ease-in;
+   opacity: 1;
+ filter:alpha(opacity=10);
+}
+img.fade:hover{
+ opacity: 0.5;
+ filter:alpha(opacity=7);
+ -ms-transition:all 0.5s ease-in;
+  -moz-transition:all 0.5s ease-in;
+  -o-transition:all 0.5s ease-in;
+  -webkit-transition:all 0.5s ease-in;
+  transition:all 0.5s ease-in;
+}
+li.dropdown{
+ 
+  border-radius:0 0 0 0 ;
+  border-right: 1px #979797 solid;
+  border-left: 1px #979797 solid;
+  width: 120px;
+  -ms-transition:all 0.5s ease-in;
+  -moz-transition:all 0.5s ease-in;
+  -o-transition:all 0.5s ease-in;
+  -webkit-transition:all 0.5s ease-in;
+  transition:all 0.5s ease-in;
+}
+li.dropdown:hover {
+  background-color:#370CFA;
+  border-radius:0 2em;
+ 
+}
+.animacion1{
+  margin-left: 30px;
+  -webkit-animation-name: rotarY; 
+  -webkit-animation-duration: 5s; 
+  -webkit-transition-timing-function: linear;
+  -moz-animation-name: rotarY; 
+  -moz-animation-duration: 5s; 
+  -moz-transition-timing-function: linear;
+  -o-animation-name: rotarY; 
+  -o-animation-duration: 5s; 
+  -o-transition-timing-function: linear;
+
+}
+.animacion2 {
+  -webkit-animation-name: escalarAnuncio;
+  -webkit-animation-duration:2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function:linear;
+  -moz-animation-name: escalarAnuncio;
+  -moz-animation-duration:2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function:linear;
+  /*margin-left: 80px;*/
+  margin-top: 15px;
+
+}
+
+.row_color{
+      background-color: #0076FC;
+      color: white;
+      font-size:15px;
+    }
+.tamanoletra{
+      font-size:15px;
+      color:black ;
+    }
+.monedacambio{
+      font-size:15px;
+      color: black;
+      margin-top:45px;
+      }
+
+.monedamexicana{
+  margin:0;
+  color:black;
+  margin-top:0;
+}
+button.btn{
+  color:white;
+  font-weight:50px;
+  background: blue;
+}
+
+button.btn:hover{
+  background:black;
+  border-radius: 0 1em 0 1em;
+  -ms-transition:all 0.5s ease-in;
+  -moz-transition:all 0.5s ease-in;
+  -o-transition:all 0.5s ease-in;
+  -webkit-transition:all 0.5s ease-in;
+  transition:all 0.5s ease-in;
+}
+
+button.btn > a:hover{
+  color:white;
+  font-weight:50px;
+  background: none;
+}
+
+div.table-responsive .animacion2{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 80px;
+
+}
+.animacion3 {
+  opacity: .8;
+  transition: transform 1s linear;
+ -webkit-transition: -webkit-transform .5s linear;
+ -moz-transition: -moz-transform .5s linear;
+ -o-transition: -o-transform .5s linear;
+}
+.animacion3:hover {
+  position: relative;
+  opacity: 1;
+  /*Anima el hover con aumento de tamaño 1.3*/
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  /*Hace que siempre que hagamos hover  quede encima de todo*/
+  z-index: 99;
+}
+
+.atributosproducto{
+  color:black;
+
+}
+.atributosproducto2{
+  color:black;
+  margin-top: 15px;
+}
+.colorfondo{
+background:#979797;
+padding: 1em;
+margin:0;
+ 
+}
+/*
+.contacto{
+  margin-left: -100px; 
+}*/
+
+.contenidoprincipal{
+  margin-top:3em;
+}
+.decoracion{
+  color:blue;
+  font-size:1.5em;
+  text-align: center;
+  /*text-shadow:5px 5px 15px rgba(255,255,255,0.9);*/
+     text-shadow:
+   -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+.decoracionimg{
+  border:5px blue solid;
+  margin: 0;
+  padding: 0;
+  border-radius:0 30px;
+  overflow: hidden;
+}
+
+.decoracionimgchat{
+  border-radius:0 30px 0 30px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+
+ /* Esta linea de codigo va a servir para cuando edite la imagen que hara enlace al carrito de compras y la imagen sea mas grande porder adecauala a la pagina... 
+
+
+.decoracioncarrito{
+  margin-top: 100px;
+}
+
+
+... Y hasta aqui termina esto
+*/
+
+.enlacesempresa{
+  color:black;
+}
+
+.enlacesmanuales{
+  color:black;
+}
+
+ .fondoheader{
+    background:white;
+ } 
+ .fondoformulariocarrito{
+  padding: 30px 80px 30px 80px;
+  border-radius:0 50px 0 100px;
+ }
+ /*.menusecundario:hover{
+  background:blue;
+  border:0.1em dashed white;
+  border-radius:0 0.5em 0 0.5em;
+  color:white;
+  padding:0.2em;
+ }*/
+
+ .informacioncontacto{
+  border:1px solid blue;
+  border-radius:1em;
+  padding: 1em;
+
+ }
+ .imagendetalles{
+  background:white;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius:2em 0 2em 0;
+ }
+
+ .panelcontrol{
+  border:3px solid #939191;
+  border-radius:1em;
+  padding: 1em;
+
+ }
+ .modulochat{
+  background: white;
+  border: 1px #979797 solid; 
+  border-radius: 2em;
+  border-width: 0.5em;
+  margin-bottom: 0;
+  margin-right:10px ;
+  margin-left: 10px;
+
+ }
+.navbar{
+  margin-bottom:0;
+}
+.navsize{
+  font-size:15px;
+  font-weight: 700;
+}
+.navbar-header{
+  color:#000;
+  border-right: 1px #979797 solid;
+}
+.navbar-header > a{
+  font-size:19px;
+}
+.navbar-inverse{
+background:#D7D3D3;
+border-top:1px #979797 solid;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li:hover > a {
+  color: white;
+}
+.navbar-collapse > li.dropdown{
+  color:#fff;
+}
+.nav-stacked>li+li{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.nav>li>a.grosormen{
+  position: relative;
+  display: block;
+  padding: 0px 0px 0px 0px;
+}
+.nav>li>a.grosormen1{
+  position: relative;
+  display: block;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 100px;
+}
+.nombreproducto{
+  color:black;
+  text-align:center;
+  margin-bottom:15px;
+}
+.paqueteria{
+  border:0;
+}
+p.noticias{
+  background:white ;
+  color:#8B8888;
+  font-size: 1.7em;
+  font-weight:5em;
+  text-align: center;
+  margin-bottom:0;
+}
+div.noticias{
+  background: white;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+div.noticias h3.noticias{
+margin-left:50px ;
+}
+
+div.noticias h5{
+text-align: center;
+}
+p.justify{
+  color:black;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+h4.noticias{
+  margin-bottom:0;
+}
+div.noticiassociales{
+  margin-top: 53px;
+  height: 130px;
+}
+ul.pagination{
+ margin-left: 70px;
+}
+.margenlado{
+  padding: 0.25em;
+}
+.menubottom{
+  margin-bottom:0px;
+  margin-top:0px;
+}
+.parrafoempresa{
+  color:black;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 20px 0 20px;
+  border-bottom: 1px solid #3001FE;
+}
+.relog{
+  margin-bottom:0px;
+  margin-top:0px;
+  background-color:white;
+}
+.sociales{
+  border:1px solid #BCBBBB;
+  background:#BCBBBB ;
+  padding:0.5em;
+  margin-top: 10px;
+  color:black;
+  height: 100px;
+  max-height: 100%;
+}
+.tituloempresa{
+  text-align:center;
+  color:blue;
+  font-weight:900px;
+}
+
+@-webkit-keyframes escalarAnuncio {
+ 0% {
+-webkit-transform:scale(1)
+}
+ 50% {
+-webkit-transform:scale(1.1)
+}
+ 100% {
+-webkit-transform:scale(1)
+}
+}
+
+@-webkit-keyframes rotarY {
+  from {
+    -webkit-transform: rotatey(0deg) scale(.2);
+  }
+  to{ 
+    -webkit-transform: rotatey(360deg) scale(1);
+  }
+}
+/*Para navegador mozilla */
+
+ @-moz-keyframes escalarAnuncio {
+ 0% {
+ -moz-transform:scale(1)
+}
+ 50% {
+-moz-transform:scale(1.1)
+}
+ 100% {
+-moz-transform:scale(1)
+}
+}
+
+@-moz-keyframes rotarY {
+  from {
+    -moz-transform: rotatey(0deg) scale(.2);
+  }
+  to{ 
+    -moz-transform: rotatey(360deg) scale(1);
+  }
+
+}
+
+
+
+
+/*Ventas al telefono 
+  Nextel 
+  62*10*45251
+  cel
+  4171771275*/
